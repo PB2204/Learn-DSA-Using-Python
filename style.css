@@ -1,0 +1,338 @@
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #ff9d00, #f07b3f, #d63d3d, #b3006e, #6a00a6);
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #ff9d00, #f07b3f, #d63d3d, #b3006e, #6a00a6);
+}
+
+.body {
+    background-color: black;
+}
+
+marquee {
+    text-shadow: rgb(65, 186, 69) -1px 1px 0px, rgb(198, 61, 43) 1px 1px 0px, rgb(66, 175, 172) 1px -1px 0px, rgb(198, 194, 63) -1px -1px 0px;
+    color: rgb(18, 18, 18);
+    letter-spacing: 5px;
+    background: rgb(18, 18, 18);
+    font-size: 4em;
+    padding: 5px;
+}
+
+p {
+    color: skyblue;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: coral;
+}
+
+.left {
+    color: skyblue;
+    min-width: 300px;
+    margin-bottom: left;
+    background-color: black;
+    height: 100vh;
+    overflow: auto;
+}
+
+.logo {
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-img {
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.code {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px !important;
+    font-weight: 700;
+    color: #00eeff;
+    position: relative;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.explorer {
+    font-family: cursive;
+    font-size: 30px !important;
+    font-weight: 700;
+    color: crimson;
+    padding-left: 15px;
+}
+
+.dropdown {
+    display: none;
+}
+
+hr.one {
+    overflow: visible;
+    /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(25, 204, 70);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.one:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(225, 15, 109);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #73101000, #e41717bf, #100f0f00);
+}
+
+.contents {
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow-img {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lesson {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 30px;
+    color: chartreuse;
+}
+
+/* RIGHT */
+
+.right {
+    background-color: black;
+    height: 100vh;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+
+.h1 {
+    text-align: center;
+    /* text-decoration: underline; */
+    font-family: monospace;
+    font-size: 30px;
+    color: #00eeff;
+}
+
+#box {
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    width: fit-content;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    font-family: cursive;
+    color: chartreuse;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.story {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(226, 249, 25);
+    padding-left: 10px;
+}
+
+/* Default styling for the image */
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+    .img {
+        max-width: 100%;
+    }
+}
+
+/* Media query for screens with a maximum width of 480 pixels */
+@media (max-width: 480px) {
+    .img {
+        max-width: 100%;
+    }
+}
+
+.div-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#table {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Default styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Styling for table header */
+thead th {
+    background-color: #0a0a0a;
+    color: #03f90b;
+}
+
+/* Styling for table body */
+tbody td {
+    background-color: #201a36;
+}
+
+tbody tr {
+    color: #b3006e;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #2f2a48;
+    color: #fff;
+}
+
+/* Responsive table styles */
+@media screen and (max-width: 768px) {
+    table {
+        overflow-x: auto;
+        max-width: 100%;
+        display: block;
+    }
+
+    th,
+    td {
+        white-space: nowrap;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #030340;
+    padding: 20px;
+    text-align: center;
+    color: darkorange;
+    font-size: 25px;
+}
+
+.footer-code {
+    color: #03f90b;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 760px) {
+    .hide-on-small-screen {
+        display: none;
+    }
+
+    .main-body {
+        flex-direction: column;
+    }
+
+    .left {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .left {
+        height: 115px;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        padding-right: 20px;
+    }
+
+    .p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
