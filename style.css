@@ -90,10 +90,6 @@ p {
     padding-left: 15px;
 }
 
-.dropdown {
-    display: none;
-}
-
 hr.one {
     overflow: visible;
     /* For IE */
@@ -153,6 +149,10 @@ a {
     font-size: 20px;
     padding-left: 30px;
     color: chartreuse;
+}
+
+.open {
+    display: none;
 }
 
 /* RIGHT */
@@ -300,8 +300,16 @@ footer {
 /* RESPONSIVE */
 
 @media screen and (max-width: 760px) {
-    .hide-on-small-screen {
+    .contents,
+    .nav-two {
         display: none;
+    }
+    .nav-hidden {
+        display: none;
+    }
+
+    .nav-visible {
+        display: block;
     }
 
     .main-body {
@@ -318,8 +326,8 @@ footer {
     }
 
     .left {
-        height: 115px;
-        overflow: hidden;
+        height: auto;
+        overflow: auto;
     }
 
     .dropdown {
@@ -334,5 +342,9 @@ footer {
     .p {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .open {
+        display: block;
     }
 }
