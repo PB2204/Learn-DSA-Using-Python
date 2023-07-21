@@ -50,6 +50,6 @@ Your feedback is invaluable to us! We would love to hear your thoughts on the co
 
 For any inquiries, collaborations, or questions, you can get in touch with us via:
 - Email: code.hub.mb.ng.org@gmail.com
-- Website: [www.codeexplorer.com](https://explorecode.newsgoogle.org)
+- Website: [Code Explorer](https://explorecode.newsgoogle.org)
 
 Let's embark on this exciting learning journey together! Happy coding! 🚀
