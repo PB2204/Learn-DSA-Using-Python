@@ -18,7 +18,7 @@ Data Structures and Algorithms are the backbone of computer science and software
 
 ## Getting Started
 
-To get started with the course, head over to our [YouTube channel](https://www.youtube.com/@Explore-Code) and find the playlist named "Learn DSA Using Python." Make sure to subscribe to our channel and turn on the notification bell to stay updated with the latest content.
+To get started with the course, head over to our [YouTube channel](https://www.youtube.com/@Explore-Code) and you can see the playlist named ["DSA Full Course Using Python"](https://www.youtube.com/watch?v=RQKJB7z-OqU&list=PLGxMeslbGNsU38f0599lOC-cRmrf01lD3&pp=iAQB) Make sure to subscribe to our channel and turn on the notification bell to stay updated with the latest content.
 
 ## Course Structure
 
