@@ -27,16 +27,22 @@ document.addEventListener("DOMContentLoaded", function () {
 // Initialize Prism.js
 Prism.highlightAll();
 
-function copyCode() {
+// function showNotification(message, type) {
+//     // You can implement your custom notification here
+//     // This is just a basic example
+//     alert(`${type}: ${message}`);
+//   }
+
+  function copyCode() {
     const codeBlock = document.getElementById("code-block");
     navigator.clipboard.writeText(codeBlock.innerText)
-        .then(() => {
-            showNotification("Code Copied !!", "success");
-        })
-        .catch((error) => {
-            console.error("Failed To Copy: ", error);
-        });
-}
+      .then(() => {
+        showNotification("Code Copied !!", "success");
+      })
+      .catch((error) => {
+        showNotification("Failed To Copy: " + error, "error");
+      });
+  }
 
 function showNotification(message, type) {
     const notification = document.getElementById("notification");

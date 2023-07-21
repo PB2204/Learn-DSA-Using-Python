@@ -38,7 +38,7 @@
           <hr class="two" />
           <li>
             <img src="../images/arrow.png" alt="" class="arrow-img" />
-            <a href="https://youtube.com">
+            <a href="index.html">
               <span class="lesson">Lesson 2 / Revision</span>
             </a>
           </li>
@@ -151,14 +151,15 @@
       <hr class="one" />
       <h1 class="h1">This Is A Quick Revision Of Python For This Course</h1>
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RQKJB7z-OqU" title="YouTube video player"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EaUnN9SZmy8" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
       <center>
         <div id="box">
-          <span>Full PlayList</span>
+          <a style="color: chartreuse;" href="https://www.youtube.com/watch?v=RQKJB7z-OqU&list=PLGxMeslbGNsU38f0599lOC-cRmrf01lD3&pp=iAQB"><span>Full
+              PlayList</span></a>
         </div>
       </center>
       <hr class="one" />
@@ -242,32 +243,12 @@
         tutorials, and documentation to support learning and mastering DSA using Python.
       </p>
       <hr class="one" />
-      <h1 class="story">Data Structures In Python</h1>
+      <h1 class="story">First Python Program</h1>
       <hr class="two" />
-      <!-- <center>
-        <p class="p" style="color: aqua !important">
-          Now look at this picture very carefully...
-        </p>
-      </center>
-      <div class="div-img">
-        <img class="img" src="../images/dgm-2.png" alt="" />
-      </div>
-      <center>
-        <p class="p" style="color: aqua !important">
-          This is the solution for the problem...
-        </p>
-      </center>
-      <div class="div-img">
-        <img class="img" src="../images/dgm-3.png" alt="" />
-      </div> -->
       <div class="container main-body-2">
         <pre class="left-2">
           <code id="code-block" class="python">
-            # Your Python code here
-            def greet():
               print("Hello, World!")
-    
-            greet()
           </code>
         </pre>
 
@@ -278,48 +259,105 @@
 
       <hr class="one" />
       <h1 class="h1">
-        Some Very Popular Data Structures In Different Programming Languages
+        Variables In Python
       </h1>
-      <div id="table">
-        <table>
-          <thead>
-            <th>Data Structure</th>
-            <th>Python</th>
-            <th>Java</th>
-            <th>C++</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Array</td>
-              <td>Lists</td>
-              <td>
-                Native Array
-                <br />
-                ArrayList
-              </td>
-              <td>
-                Native Array
-                <br />
-                std::vector
-              </td>
-            </tr>
-            <tr>
-              <td>Hash Table</td>
-              <td>Dictionary</td>
-              <td>
-                HashMap <br />
-                LinkedHashMap
-              </td>
-              <td>std::map</td>
-            </tr>
-            <tr>
-              <td>Linked List</td>
-              <td>Not Available</td>
-              <td>LinkedList</td>
-              <td>std::list</td>
-            </tr>
-          </tbody>
-        </table>
+      <hr class="two" />
+      <p class="p" style="color: aqua !important">Variables are the name , given to a particular memory location. We've
+        to follow some rule to declare a variable names in Python . Those are :-</p>
+      <h1 class="story">Do This</h1>
+      <span class="do" style="color: chartreuse; font-family: cursive; font-size: 20px; padding-left: 100px;">1) Starts
+        with only A-Z / a-z/ _ .</span>
+      <br />
+      <span class="do" style="color: chartreuse; font-family: cursive; font-size: 20px; padding-left: 100px;">2) Can
+        contain number in the middle.</span>
+      <h1 class="story">Don't Do This</h1>
+      <span class="do" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1) Doesn't
+        starts with any number (0-9).</span>
+      <br />
+      <span class="do" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">2) Some
+        system variables starts with (_) , so we'll avoid that.</span>
+      <p class="p">As Python is a Dynamically Typed programming language , we don't need to mention the data type of the
+        variable . This will automatically detect that .</p>
+      <hr class="one" />
+      <h1 class="h1">
+        Data Types In Python
+      </h1>
+      <hr class="two" />
+      <p class="p">We've some by default data-types in Python like,-</p>
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        Integer</span>
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">2)
+        Float</span>
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">3)
+        Strings</span>
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">4)
+        Arrays</span>
+      <p class="p">To know a data-type of a variable , we can use <span style="color: greenyellow;">type()</span>
+        function .</p>
+      <hr class="one" />
+      <h1 class="h1">Arithmetical Operators</h1>
+      <hr class="two" />
+      <p class="p">In Python we've some Arithmetical Operators ,-</p>
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[+]</b>
+        To add two integers / floats / strings</span>
+      <br />
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[-]</b>
+        To subtract two integers / floats</span>
+      <br />
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[*]</b>
+        To multiply two integers / floats</span>
+      <br />
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[/]</b>
+        To divide two integers / floats</span>
+      <br />
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[**]</b>
+        To power two integers / floats</span>
+      <br />
+      <span class="dos" style="color: #ff002b; font-family: cursive; font-size: 20px; padding-left: 100px;">1)
+        <b style="color: chartreuse;">[//]</b>
+        To floor division two integers / floats</span>
+      <hr class="one" />
+      <h1 class="h1">Taking Inputs</h1>
+      <hr class="two" />
+      <p class="p">We've to use <span style="color: chartreuse;">input()</span> function to take inputs , from the users
+        . By default the <span style="color: chartreuse;">input()</span> function stores the user input in string
+        data-type format .</p>
+      <div class="container main-body-2">
+        <pre class="left-2">
+            <code id="code-block" class="python">
+  def add():
+    input1 = input("Enter Your first Number : ")
+    input2 = input("Enter Your second Number : ")
+
+    output = input1 + input2
+    print("The result is " + output)
+
+  add()
+            </code>
+          </pre>
+      </div>
+      <hr class="two" />
+      <p class="p">This code will store your numbers as string data-type , so it will not add your numbers . But if you
+        want to add them , you've to convert the data-type to string(str) to integer(int) . Let see how we can do that,-
+      </p>
+      <div class="container main-body-2">
+        <pre class="left-2">
+            <code id="code-block" class="python">
+  def add():
+    input1 = int(input("Enter Your first Number : "))
+    input2 = int(input("Enter Your second Number : "))
+
+    output = input1 + input2
+    print("The result is " + output)
+
+  add()
+            </code>
+          </pre>
       </div>
     </div>
   </div>
@@ -329,11 +367,6 @@
   </footer>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/prism.min.js"></script>
-  <!-- <script>
-    // Initialize Prism.js
-    Prism.highlightAll();
-  </script> -->
-
 </body>
 
 </html>

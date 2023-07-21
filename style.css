@@ -395,4 +395,14 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .do {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .dos {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
 }
