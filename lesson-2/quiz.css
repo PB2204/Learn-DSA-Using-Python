@@ -1,0 +1,81 @@
+/* Quiz question */
+.quiz-question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Quiz options */
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quiz-options li {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.quiz-options input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/* Quiz buttons */
+.quiz-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.quiz-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-buttons button#save-next-btn {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: #007bff;
+}
+
+.quiz-buttons button#save-next-btn:hover {
+    background-color: #0056b3;
+}
+
+.quiz-buttons button#previous-btn {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: #6c757d;
+}
+
+.quiz-buttons button#previous-btn:hover {
+    background-color: #4d545b;
+}
+
+/* Quiz result */
+#quiz-result {
+    text-align: center;
+    display: none;
+    margin-top: 30px;
+}
+
+#result-text {
+    font-size: 20px;
+    font-weight: bold;
+}

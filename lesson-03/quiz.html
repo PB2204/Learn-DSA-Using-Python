@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/dsa-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="quiz.css">
+    <title>Learn DSA Using Python || Code Explorer</title>
+</head>
+
+<body class="body">
+    <marquee>Learn DSA Using Python || Lesson 03 - Data Structures || Code
+        Explorer</marquee>
+    <div class="main-body">
+        <div class="left">
+            <div class="logo">
+                <img src="../images/code.png" alt="" height="100px" width="100px" class="logo-img" />
+                <div class="logo-div">
+                    <span class="code">Code</span><span class="explorer">Explorer</span>
+                </div>
+                <span class="dropdown"></span>
+            </div>
+            <hr class="one" />
+            <div class="hide-on-small-screen">
+                <span class="contents">Contents</span>
+                <hr class="two nav-two" />
+                <ul type="none" class="nav-hidden">
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="../index.html">
+                            <span class="lesson">Lesson 1 / Intro</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="../lesson-2/index.html">
+                            <span class="lesson">Lesson 2 / Python Revision</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="index.html">
+                            <span class="lesson">Lesson 3 / Data Structures</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 4 / Output</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 1 / Intro</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 2 / Revision</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 3 / Testing</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 4 / Output</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 1 / Intro</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 2 / Revision</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 3 / Testing</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 4 / Output</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 1 / Intro</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 2 / Revision</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 3 / Testing</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                    <li>
+                        <img src="../images/arrow.png" alt="" class="arrow-img" />
+                        <a href="https://youtube.com">
+                            <span class="lesson">Lesson 4 / Output</span>
+                        </a>
+                    </li>
+                    <hr class="two" />
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <h1 class="h1">
+                Welcome To DSA Complete Course Using Python By Code Explorer
+            </h1>
+            <hr class="one" />
+            <h1 class="h1">Here We Will Take A Small Quiz About Data Structures</h1>
+            <hr class="two"/>
+            <div id="quiz-container">
+                <h1 class="quiz-question story"></h1>
+                <ul class="quiz-options h1" id="quiz-options">
+                    <!-- Options will be filled dynamically using JavaScript -->
+                </ul>
+                <div class="quiz-buttons">
+                    <button id="previous-btn" onclick="previousQuestion()">Previous</button>
+                    <button id="save-next-btn" onclick="saveAndNextQuestion()">Save & Next</button>
+                </div>
+            </div>
+            <div id="quiz-result" style="display: none;">
+                <h2>Your Quiz Result</h2>
+                <p id="result-text"></p>
+            </div>
+            <marquee style="bottom: 10px; position: static;">Thanks For Taking Part In The Quiz</marquee>
+        </div>
+    </div>
+    <footer class="footer">
+        Copyright &copy; 2023 || Developed By ::
+        <a href="https://explorecode.newsgoogle.org"><span class="footer-code">Code Explorer</span></a>
+    </footer>
+    <script src="quiz.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/prism.min.js"></script>
+</body>
+
+</html>
