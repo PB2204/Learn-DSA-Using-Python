@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.certificate {
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f6f6;
+    background-image: linear-gradient(147deg, #ff8a00 0%, #e52e71 100%);
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.signature {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signature p {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
