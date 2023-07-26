@@ -405,4 +405,8 @@ footer {
         padding-left: 20px !important;
         padding-right: 0px !important;
     }
+
+    .marquee {
+        display: none;
+    }
 }
