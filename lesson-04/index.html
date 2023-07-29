@@ -11,7 +11,7 @@
 </head>
 
 <body class="body">
-    <marquee class="marquee">Learn DSA Using Python || Lesson 03 - Data Structures || Code
+    <marquee class="marquee">Learn DSA Using Python || Lesson 04 - Concept Of Algorithms || Code
         Explorer</marquee>
     <div class="main-body">
         <div class="left">
@@ -170,492 +170,307 @@
                 desired outcomes efficiently.
             </p>
             <hr class="one" />
-            <h1 class="h1">Two Types Of Data Structures</h1>
+            <h1 class="h1">Criteria Of An Algorithm</h1>
             <hr class="two" />
-            <p class="p">We can divide Data Structures into two parts . Like We have : - <span
-                    style="color: #ff002b; font-family: cursive; font-size: 20px;">Liner Data Structures</span> & <span
-                    style="color: #ff002b; font-size: 20px; font-family: cursive;"">Non-Liner Data Structures</span></p>
-                            <h1 class=" story">Liner Data Structures</h1>
-                    <ol style="padding-left: 50px; padding-right: 20px;">
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            1) Array
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            2) Linked List
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            3) Stack
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            4) Queue
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            5) Matrix
-                        </li>
-                    </ol>
-                    <h1 class="story">Non-Liner Data Structures</h1>
-                    <ol style="padding-left: 50px; padding-right: 20px;">
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            1) Binary Tree
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            2) Heap
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            3) Hash Table
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            4) Graph
-                        </li>
-                    </ol>
-                    <hr class="one" />
-                    <h1 class="h1">Python Specific Data Structures</h1>
-                    <hr class="two" />
-                    <p class="p">Python has some by default specific Data Structures like :-</p>
-                    <ol style="padding-left: 50px; padding-right: 20px;">
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            1) List
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            2) Tuple
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            3) Dictionary
-                        </li>
-                        <li style="display: block !important; color: aqua; padding-bottom: 10px;">
-                            4) Set
-                        </li>
-                    </ol>
-                    <p class=" p" style="color: aqua !important">
-                        Python allows us to create and use various types of Data Structures and you can control all of
-                        them .
-                    </p>
-                    <hr class="one" />
-                    <h1 class="h1">Lists In Python</h1>
-                    <hr class="two" />
-                    <p class="p" style="color: aqua !important">
-                        In Python, a list data structure is an ordered collection of elements that can hold items of
-                        different data types, such as integers, strings, or even other lists. Lists are mutable, meaning
-                        their elements can be modified, added, or removed after creation. They are represented using
-                        square brackets [ ] and can be indexed and sliced to access specific elements or subsets of the
-                        list. Python lists offer versatile functionality, making them widely used for data storage,
-                        iteration, and manipulation in various programming tasks.
-                    </p>
-                    <h1 class="story">Implementing A Simple List In Python</h1>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-                  <code id="code-block" class="python">
-                    # Creating a list
-                    my_list = [1, 2, 3, 4, 5]
-                    
-                    # Accessing elements in the list
-                    print("Element at index 0:", my_list[0])   
-                    # Output: Element at index 0: 1
-                    print("Element at index 2:", my_list[2])   
-                    # Output: Element at index 2: 3
-                    
-                    # Modifying elements in the list
-                    my_list[3] = 10
-                    print("Modified list:", my_list)          
-                    # Output: Modified list: [1, 2, 3, 10, 5]
-                    
-                    # Appending elements to the list
-                    my_list.append(6)
-                    print("List after appending 6:", my_list) 
-                    # Output: List after appending 6: [1, 2, 3, 10, 5, 6]
-                    
-                    # Removing elements from the list
-                    my_list.remove(3)
-                    print("List after removing 3:", my_list)  
-                    # Output: List after removing 3: [1, 2, 10, 5, 6]
-                    
-                    # Slicing the list
-                    sliced_list = my_list[1:4]
-                    print("Sliced list:", sliced_list)        
-                    # Output: Sliced list: [2, 10, 5]
-                    
-                    # Length of the list
-                    length_of_list = len(my_list)
-                    print("Length of the list:", length_of_list)  
-                    # Output: Length of the list: 5
-                    
-                  </code>
-                </pre>
+            <ol style="padding-left: 50px; padding-right: 20px;">
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059 !important; font-style: italic; font-family: cursive;">1 ) </span>
+                    Input
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">2 ) </span>
+                    Output
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">3 ) </span>
+                    Finiteness
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">4 ) </span>
+                    Definiteness
+                </li>
+            </ol>
+            <hr class="two" />
+            <p class="p" style="color: aqua !important;">When we'll pass the input to an Algorithm , it must give us an
+                output and this should be a
+                finite value . And for every programming language the output might be same for a particular input value
+                .</p>
+            <div class="div-img">
+                <img class="img" src="../images/Algo.png" alt="" />
+            </div>
+            <hr class="one" />
+            <h1 class="h1">Steps To Implement An Algorithm</h1>
+            <hr class="two" />
+            <p class="p" style="color: aqua !important;">Implementing an algorithm may sound daunting, but it can be
+                broken down into simple steps. Here's a beginner-friendly guide to help you get started :-</p>
+            <ol style="padding-left: 50px; padding-right: 20px;">
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059 !important; font-style: italic; font-family: cursive;">1 ) Understand
+                        The
+                        Problem : </span>
+                    <p class="p" style="color: aqua !important;">Before you begin implementing an algorithm, it's
+                        essential to thoroughly understand the problem you're trying to solve. Clearly define the inputs
+                        and outputs, and consider any constraints that may impact the solution. Gather all the necessary
+                        information and ask questions to gain a comprehensive understanding of the problem at hand.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">2 ) Choose An
+                        Algorithm : </span>
+                    <p class="p" style="color: aqua !important;">Selecting the right algorithm is crucial for solving
+                        the problem efficiently. There are various algorithms available for different tasks, such as
+                        searching, sorting, or graph traversal. Research and choose an algorithm that fits your specific
+                        requirements and is well-suited to the nature of the problem.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">3 ) Break It
+                        Down : </span>
+                    <p class="p" style="color: aqua !important;">Algorithms can often be complex, so it's helpful to
+                        break them down into smaller, more manageable steps. This process involves understanding each
+                        step and how they work together to achieve the desired solution. Creating flowcharts or diagrams
+                        can be beneficial in visualizing the algorithm's workflow.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">4 ) Pseudo Code
+                        : </span>
+                    <p class="p" style="color: aqua !important;">Pseudo code is an intermediate step between
+                        understanding the algorithm and writing actual code. It involves writing the algorithm in
+                        human-readable terms, without worrying about the specific syntax of a programming language.
+                        Pseudo code helps to solidify the logic and approach before diving into the code.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059 !important; font-style: italic; font-family: cursive;">5 ) Choose A
+                        Programming Language : </span>
+                    <p class="p" style="color: aqua !important;">Once you have a clear understanding of the algorithm
+                        and have outlined it in pseudo code, it's time to choose a programming language for
+                        implementation. The choice of language depends on your familiarity with it and the requirements
+                        of your project. Popular languages include Python, Java, C++, and JavaScript.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">6 ) Write the
+                        Code : </span>
+                    <p class="p" style="color: aqua !important;">With the pseudo code as a guide, start translating it
+                        into actual code using your chosen programming language. Focus on implementing one step at a
+                        time and test each step thoroughly before proceeding. Building the code incrementally helps in
+                        identifying and fixing issues early on.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">7 ) Test
+                        Thoroughly : </span>
+                    <p class="p" style="color: aqua !important;">Testing is a critical phase in the implementation
+                        process. Create test cases that cover various scenarios, including normal cases, edge cases, and
+                        possible errors. By testing rigorously, you can ensure that your algorithm produces accurate
+                        results under different conditions.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">8 ) Debug And
+                        Optimize : </span>
+                    <p class="p" style="color: aqua !important;">If your code doesn't work as expected, use debugging
+                        techniques to identify and fix any errors. Additionally, consider optimizing your code to
+                        improve its efficiency, if necessary. Reducing time and memory complexity can make your
+                        algorithm more performant.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059 !important; font-style: italic; font-family: cursive;">9 ) Document Your
+                        Code : </span>
+                    <p class="p" style="color: aqua !important;">Documentation is essential to explain the purpose of
+                        the code and the logic behind it. Add comments and detailed explanations within the code to make
+                        it understandable for yourself and other developers who may work on it in the future.</p>
+                </li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    <span style="color: #ff0059  !important; font-style: italic; font-family: cursive;">10 ) Deploy and
+                        Maintain : </span>
+                    <p class="p" style="color: aqua !important;">After successfully implementing and testing your
+                        algorithm, integrate it into your project or application. Be prepared to maintain the code and
+                        make improvements based on user feedback or changing requirements. Software development is an
+                        iterative process, and continuous improvement is key to delivering reliable solutions.</p>
+                </li>
+            </ol>
+            <p class="p" style="color: aqua !important;">Remember that algorithm implementation requires practice and
+                patience. By following these steps and learning from your experiences, you'll become more proficient in
+                designing and implementing algorithms.</p>
+            <hr class="one" />
+            <h1 class="h1">Time Complexity</h1>
+            <hr class="two" />
+            <h1 class="story">Definition Of Time Complexity</h1>
+            <p class="p" style="color: aqua !important;">Time complexity is a measure of how the running time of an
+                algorithm increases with the size of its input data. It helps us understand the efficiency of an
+                algorithm and how it scales as the problem size grows. Time complexity is usually expressed using big-O
+                notation, which provides an upper bound on the growth rate of an algorithm's running time concerning the
+                input size.</p>
+            <hr class="two" />
+            <h1 class="story">Definition Of Big-O Notation</h1>
+            <p class="p" style="color: aqua !important;">Big-O notation, often written as O(f(n)), is a mathematical
+                notation used to describe the upper bound of the growth rate of a function or an algorithm. In the
+                context of time complexity, 'f(n)' represents the number of operations an algorithm performs concerning
+                the size of its input 'n'. Big-O notation allows us to compare and analyze algorithms' efficiency and
+                identify which algorithms are more scalable and better suited for larger data sets.</p>
+            <hr class="two" />
+            <h1 class="story">Question Of Time Complexity</h1>
+            <p class="p" style="color: #fd7803 !important;">Write a Python function to calculate the sum of elements in
+                an array. Analyze the time complexity of the
+                function and calculate its O notation. Provide a simple example demonstrating how the function performs
+                with different array sizes.</p>
+            <p class="p" style="color: aqua !important;">
+                Let's go step by step to implement the Python function to calculate the sum of elements in an
+                array and then analyze its time complexity.</p>
+            <p class="p" style="color: aqua !important;">
+                Step 1: Define the function and initialize the `total` variable to zero. </p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                    <code id="code-block" class="python">
+                        def sum_array(arr):
+                        total = 0
+                    </code>
+                  </pre>
+                <button class="copy-button right-2" onclick="copyCode()">Copy Code</button>
+            </div>
 
-                        <button class="copy-button right-2" onclick="copyCode()">Copy Code</button>
+            <p class="p" style="color: aqua !important;">
+                Step 2: Use a loop to iterate through each element in the array and add it to the `total`.</p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                    <code id="code-block1" class="python">
+                        for num in arr:
+                        total += num
+                    </code>
+                  </pre>
+                <button class="copy-button right-2" onclick="copyCode1()">Copy Code</button>
+            </div>
+            <div id="notification" class="notification"></div>
+            <p class="p" style="color: aqua !important;">
+                Step 3: Return the calculated sum.</p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                    <code id="code-block2" class="python">
+                        return total
+                    </code>
+                  </pre>
+                <button class="copy-button right-2" onclick="copyCode2()">Copy Code</button>
+            </div>
+            <p class="p" style="color: aqua !important;">
+                Now that we have implemented the function, let's analyze its time complexity and calculate the O
+                notation.</p>
+            <hr class="two" />
+            <h1 class="story">Time Complexity Analysis</h1>
+
+            <ol style="padding-left: 50px; padding-right: 20px;">
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - The loop in the function runs once for each element in the array.</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - Let's say the array has 'n' elements.</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - As the size of the array increases, the number of iterations in the loop also increases linearly
+                    with
+                    'n'.</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - Therefore, the time complexity of this function is O(n) because the running time grows linearly
+                    with
+                    the input size 'n'.
+                </li>
+            </ol>
+            <hr class="two" />
+            <h1 class="story">Calculation Of O Notation</h1>
+            <ol style="padding-left: 50px; padding-right: 20px;">
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - The O notation for this function is O(n) because the loop iterates through each element once, and
+                    the
+                    number of iterations is directly proportional to the size of the array 'n'.</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - In big-O notation, we consider the most significant term, which is 'n' in this case, and ignore
+                    constant factors and lower-order terms.</li>
+            </ol>
+            <p class="p" style="color: aqua !important;">
+                Finally, let's provide a simple example demonstrating how the function performs with different array
+                sizes :- </p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                <code id="code-block4" class="python">
+                    arr = [1, 2, 3, 4, 5]
+                    print(sum_array(arr)) # Output: 15
+                </code>
+              </pre>
+                <button class="copy-button right-2" onclick="copyCode4()">Copy Code</button>
+            </div>
+            <p class="p" style="color: aqua !important;">
+                As the input array grows larger, the time taken by the `sum_array` function will increase linearly with
+                the size of the array. For example, if the array has 1000 elements, the function will take approximately
+                1000 times longer to complete compared to an array with 10 elements. This demonstrates the linear time
+                complexity of the function.
+            </p>
+            <hr class="one" />
+            <h1 class="h1">Space Complexity</h1>
+            <hr class="two" />
+            <h1 class="story">Definition Of Space Complexity</h1>
+            <p class="p" style="color: aqua !important;">Space complexity is a measure of how much additional memory or
+                space an algorithm or program requires to solve a problem, based on the size of its input. It helps us
+                understand the efficiency of an algorithm in terms of memory usage. Space complexity includes all the
+                extra data structures and variables used during the execution of an algorithm, in addition to the input
+                data. Similar to time complexity, space complexity is also analyzed using big-O notation to express the
+                upper bound of the space required concerning the input size. Reducing space complexity is essential to
+                optimize memory usage and improve the performance of algorithms, especially when dealing with large
+                datasets or resource-constrained environments.</p>
+            <hr class="two" />
+            <h1 class="story">Question Of Space Complexity</h1>
+            <p class="p" style="color: #fd7803 !important;">Write a Python function that takes a list of integers as
+                input and returns the count of unique elements in the list. You are required to solve this problem using
+                additional space, and your implementation should aim for minimal space complexity. Analyze the space
+                complexity of your solution and provide a simple example to demonstrate how the function works.</p>
+            <p class="p" style=" color: aqua !important;">To count the unique elements in the list while minimizing
+                space usage, we can use a set data structure. A set is an unordered collection of unique elements. By
+                converting the input list into a set, we automatically remove any duplicate elements. Then, we can
+                return the size of the set, which represents the count of unique elements.</p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                    <code id="code-block5" class="python">
+                        def count_unique_elements(arr):
+                            unique_set = set(arr)
+                            return len(unique_set)
+                    </code>
+                  </pre>
+                <button class="copy-button right-2" onclick="copyCode5()">Copy Code</button>
+            </div>
+            <hr class="two" />
+            <h1 class="story">Space Complexity Analysis</h1>
+            <ol style="padding-left: 50px; padding-right: 20px;">
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - The space complexity of this solution primarily depends on the additional space used to store the
+                    set of unique elements.</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - In the worst case, if all elements in the input list are unique, the set will store all 'n'
+                    elements
+                    of the list, resulting in a space complexity of O(n).</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - In the best case, if all elements in the input list are duplicates, the set will only store a
+                    single
+                    element, resulting in a space complexity of O(1).</li>
+                <li style="display: block !important; color: aqua; padding-bottom: 10px;">
+                    - On average, considering various input scenarios, the space complexity can be approximated as
+                    O(min(n, m)), where 'n' is the size of the input list and 'm' is the count of unique elements in the
+                    list.</li>
+            </ol>
+            <hr class="two" />
+            <h1 class="story">Calculation Of O Notation</h1>
+            <p class="p" style="color:aqua !important;">Let's demonstrate the function with a simple example :</p>
+            <div class="container main-body-2">
+                <pre class="left-2">
+                <code id="code-block6" class="python">
+                    arr = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+                    print(count_unique_elements(arr))  # Output: 7
+                </code>
+              </pre>
+                <button class="copy-button right-2" onclick="copyCode6()">Copy Code</button>
+            </div>
+            <p class="p" style="color: aqua !important;">In this example, the input list has 9 elements, but there are
+                only 7 unique elements: [3, 1, 4, 5, 9, 2, 6]. The function will return 7 as the count of unique
+                elements.</p>
+            <p class="p" style="color: aqua !important;">Overall, by utilizing a set to remove duplicates and counting
+                the size of the set, this solution efficiently finds the count of unique elements while optimizing space
+                usage.</p>
+                <center>
+                    <div id="box">
+                        <a style="color: chartreuse;" href="#"><span id="quizText">Take Quiz</span></a>
                     </div>
-                    <p class="p" style="color: aqua !important">In this code, we create a list called my_list and
-                        perform various operations such as
-                        accessing elements using index, modifying elements, appending elements, removing elements,
-                        slicing the list, and finding the length of the list. Lists in Python are very versatile and can
-                        be used in a wide range of scenarios for data storage and manipulation.</p>
-                    <hr class="two" />
-                    <h1 class="story">Nested or Multi Dimensional List</h1>
-                    <p class="p" style="color: aqua !important;">A nested or multi-dimensional list is a list that
-                        contains other lists as its elements, creating a structure similar to a matrix or an array of
-                        arrays. Each element in the main list can be another list, and these sub-lists can have
-                        different lengths. Here's an example of a 2D nested list in Python:</p>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-                      <code id="code-block1" class="python">
-                        # Creating a nested list (2D list)
-                        nested_list = [
-                            [1, 2, 3],
-                            [4, 5, 6],
-                            [7, 8, 9]
-                        ]
-                        
-                        # Accessing elements in the nested list
-                        print("Element at row 0, column 1:", nested_list[0][1])   
-                        # Output: Element at row 0, column 1: 2
-                        print("Element at row 2, column 2:", nested_list[2][2])   
-                        # Output: Element at row 2, column 2: 9
-                        
-                        # Modifying elements in the nested list
-                        nested_list[1][0] = 10
-                        print("Modified nested list:", nested_list)
-                        # Output: Modified nested list: [[1, 2, 3], [10, 5, 6], [7, 8, 9]]
-                        
-                        # Appending a new row to the nested list
-                        new_row = [11, 12, 13]
-                        nested_list.append(new_row)
-                        print("Nested list after appending a new row:", nested_list)
-                        # Output: Nested list after appending a new row: 
-                        # [[1, 2, 3], [10, 5, 6], [7, 8, 9], [11, 12, 13]]
-                        
-                        # Slicing the nested list
-                        sliced_list = nested_list[1:3]
-                        print("Sliced nested list:", sliced_list)
-                        # Output: Sliced nested list: [[10, 5, 6], [7, 8, 9]]
-                        
-                      </code>
-                    </pre>
-
-                        <button class="copy-button right-2" onclick="copyCode1()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">In this example, nested_list is a 2D list with three
-                        rows, and each row is a list itself. We can access elements using two indices, one for the row
-                        and another for the column. The code demonstrates accessing, modifying, appending rows, and
-                        slicing the nested list. Multi-dimensional lists are useful when dealing with data organized in
-                        a grid-like structure, such as matrices or tables.</p>
-                    <hr class="two" />
-                    <h1 class="story">How To Check The Size Of A List ??</h1>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-                        <code id="code-block2" class="python">
-                            list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, "Bhed"]
-                            print(len(list))
-
-                            # Output : 15
-                        </code>
-                      </pre>
-                        <button class="copy-button right-2" onclick="copyCode2()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">Using <span
-                            style="color: #ff002b; font-family: cursive;">len()</span> function we can easily find the
-                        length / size of any Lists .</p>
-                    <hr class="two" />
-                    <h1 class="story">Concept Of Negative Indexing</h1>
-                    <p class="p" style="color: aqua !important;">In Python, negative indexing is a concept that allows
-                        you to access elements from the end of a list using negative numbers as indices. Instead of
-                        counting from the beginning (0) like positive indexing, negative indexing starts counting from
-                        the end (-1) of the list. This means that the last element of the list can be accessed using
-                        index -1, the second-to-last element using index -2, and so on.
-                    </p>
-                    <p class="p" style="color: aqua !important;">Here's how negative indexing works with a list :-
-                    </p>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-                        <code id="code-block3" class="python">
-                            # Creating a list
-                            my_list = [10, 20, 30, 40, 50]
-                            
-                            # Accessing elements using positive indexing
-                            print("Element at index 0:", my_list[0])   
-                            # Output: Element at index 0: 10
-                            print("Element at index 3:", my_list[3])   
-                            # Output: Element at index 3: 40
-                            
-                            # Accessing elements using negative indexing
-                            print("Element at index -1:", my_list[-1])   
-                            # Output: Element at index -1: 50
-                            print("Element at index -3:", my_list[-3])   
-                            # Output: Element at index -3: 30
-                            
-                        </code>
-                      </pre>
-                        <button class="copy-button right-2" onclick="copyCode3()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">Using negative indexing can be especially useful when
-                        you want to access elements near the end of the list, or when the length of the list is not
-                        known, but you still need to access the last few elements. Negative indexing provides a
-                        convenient and concise way to achieve this without explicitly calculating the positive index
-                        from the length of the list.
-                    </p>
-                    <p class="p" style="color: aqua !important;">So, negative indexing is a powerful feature in Python
-                        lists that allows you to access elements from the end of the list using negative numbers as
-                        indices, making it easier and more intuitive to work with lists, especially when dealing with
-                        elements near the end.
-                    </p>
-                    <hr class="one" />
-                    <h1 class="h1">Tuples In Python</h1>
-                    <hr class="two" />
-                    <p class="p" style="color: aqua !important;">In Python, a tuple is an immutable, ordered collection
-                        of elements enclosed in
-                        <span style="color: #ff002b; font-family: cursive;">parentheses ( )</span> or created without
-                        any brackets. Unlike lists, tuples cannot be modified after
-                        creation, making them "immutable" data structures. Tuples can hold elements of different data
-                        types, just like lists, but once a tuple is created, its elements and their order cannot be
-                        changed.
-                    </p>
-                    <hr class="two" />
-                    <h1 class="story">Definition Of Tuples</h1>
-                    <p class="p" style="color: aqua !important;">Tuples in Python are fixed-size, ordered collections of
-                        elements, and are defined by enclosing the elements within parentheses. They provide a way to
-                        group related data together and are commonly used to represent data that should remain constant
-                        throughout the program's execution. The elements in a tuple can be accessed using indexing,
-                        similar to lists. However, since tuples are immutable, you cannot add, remove, or modify
-                        elements once the tuple is created, which makes them suitable for situations where data
-                        integrity and protection against accidental changes are desired. Tuples are commonly used to
-                        return multiple values from functions, as dictionary keys (since they are immutable), and as
-                        elements of sets, where only immutable objects are allowed.
-                    </p>
-                    <hr class="two" />
-                    <h1 class="story">Implementations Of Tuple In Python</h1>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-                  <code id="code-block4" class="python">
-                    # Creating a tuple
-                    my_tuple = (1, 2, 3, 'apple', 'banana')
-                    
-                    # Accessing elements in the tuple
-                    print("Element at index 0:", my_tuple[0])     
-                    # Output: Element at index 0: 1
-                    print("Element at index 3:", my_tuple[3])     
-                    # Output: Element at index 3: apple
-                    
-                    # Length of the tuple
-                    length_of_tuple = len(my_tuple)
-                    print("Length of the tuple:", length_of_tuple)    
-                    # Output: Length of the tuple: 5
-                    
-                    # Iterating over the tuple
-                    print("All elements in the tuple:")
-                    for item in my_tuple:
-                        print(item)
-                    # Output:
-                    # 1
-                    # 2
-                    # 3
-                    # apple
-                    # banana
-                    
-                  </code>
-                </pre>
-
-                        <button class="copy-button right-2" onclick="copyCode4()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">In this example, my_tuple is a simple tuple containing
-                        integer and string elements. We access elements using indexing, find the length of the tuple,
-                        and iterate through all the elements using a for loop. Once a tuple is created, its elements
-                        cannot be changed, added, or removed, ensuring its immutability. Tuples are useful for scenarios
-                        where you need to store a fixed set of related data that should not be altered during the
-                        program's execution.
-                    </p>
-
-                    <hr class="two" />
-                    <h1 class="story">Immutable Property Of Tuples</h1>
-                    <p class="p" style="color: aqua !important;">Let's demonstrate the immutable property of tuples by
-                        attempting to modify a tuple after it has been created. This will result in a <span
-                            style="color: #ff002b;">TypeError</span> since
-                        tuples cannot be changed once they are defined.</p>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-          <code id="code-block5" class="python">
-            # Creating a tuple
-            my_tuple = (1, 2, 3)
-            
-            # Attempting to modify the tuple
-            try:
-                my_tuple[1] = 10
-                # Trying to change the element at index 1 to 10
-            except TypeError as e:
-                print("TypeError:", e)
-                # Output: TypeError: 'tuple' object does not support item assignment
-            
-          </code>
-        </pre>
-
-                        <button class="copy-button right-2" onclick="copyCode5()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">As shown in the code, when we try to modify the element
-                        at index 1 of the tuple my_tuple, Python raises a TypeError with the message " 'tuple' object
-                        does not support item assignment." This error indicates that tuples are immutable and cannot be
-                        changed after creation.
-                    </p>
-
-                    <p class="p" style="color: aqua !important;">This is in contrast to lists, where you can modify,
-                        add, or remove elements freely. The immutability of tuples makes them suitable for situations
-                        where you want to ensure data integrity and protect against unintended changes to the data.
-                    </p>
-
-                    <div id="notification" class="notification"></div>
-
-                    <hr class="one" />
-                    <h1 class="h1">
-                        Dictionary In Python
-                    </h1>
-                    <hr class="two" />
-                    <p class="p" style="color: aqua !important">In Python, a dictionary is an unordered, mutable
-                        collection of key-value pairs, where each key must be unique. Dictionaries are represented using
-                        <span style="color: #ff002b;">curly braces { }</span> and allow for efficient data retrieval and
-                        modification based on their keys.
-                        Each key is associated with a value, and this association is known as a key-value pair. Keys in
-                        dictionaries must be immutable objects, such as strings, numbers, or tuples, while values can be
-                        of any data type. Dictionaries are widely used in Python for tasks that involve data lookup and
-                        storage, mapping relationships between different elements, and efficiently organizing and
-                        managing data.
-                    </p>
-                    <hr class="two" />
-                    <h1 class="story">Implementations Of Dictionary</h1>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-          <code id="code-block6" class="python">
-            # Creating a dictionary
-            my_dict = {
-                'name': 'John',
-                'age': 30,
-                'city': 'New York',
-                'email': 'john@example.com'
-            }
-            
-            # Accessing values using keys
-            print("Name:", my_dict['name'])       # Output: Name: John
-            print("Age:", my_dict['age'])         # Output: Age: 30
-            print("City:", my_dict['city'])       # Output: City: New York
-            print("Email:", my_dict['email'])     # Output: Email: john@example.com
-            
-            # Modifying values in the dictionary
-            my_dict['age'] = 32
-            print("Modified dictionary:", my_dict)
-            # Output: Modified dictionary: 
-            # {'name': 'John', 'age': 32, 'city': 'New York', 'email': 'john@example.com'}
-            
-            # Adding new key-value pairs to the dictionary
-            my_dict['occupation'] = 'Engineer'
-            print("Dictionary with new pair:", my_dict)
-            # Output: Dictionary with new pair: 
-            # {'name': 'John', 'age': 32, 'city': 'New York', 
-               'email': 'john@example.com', 'occupation': 'Engineer'}
-            
-            # Removing a key-value pair from the dictionary
-            del my_dict['email']
-            print("Dictionary after removing email:", my_dict)
-            # Output: Dictionary after removing email: 
-            # {'name': 'John', 'age': 32, 'city': 'New York', 'occupation': 'Engineer'}
-            
-            # Length of the dictionary
-            length_of_dict = len(my_dict)
-            print("Length of the dictionary:", length_of_dict)
-            # Output: Length of the dictionary: 4
-            
-          </code>
-        </pre>
-
-                        <button class="copy-button right-2" onclick="copyCode6()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">In this example, my_dict is a dictionary with key-value
-                        pairs representing various information about a person. We access values using their
-                        corresponding keys, modify values, add new key-value pairs, and remove key-value pairs using the
-                        del keyword. Dictionaries are versatile data structures that offer efficient lookup and
-                        manipulation based on their keys, making them valuable for organizing and managing data in
-                        Python programs.
-                    </p>
-                    <hr class="qone" />
-                    <h1 class="h1">Set In Python</h1>
-                    <hr class="two" />
-                    <p class="p" style="color: aqua !important;">In Python, a set is an unordered, mutable collection of
-                        unique elements. Sets are represented using <span style="color: #ff002b;">curly braces { } or
-                            the built-in `set()` function</span>.
-                        Unlike lists or tuples, sets do not allow duplicate elements. When you create a set with
-                        duplicate items, Python automatically removes the duplicates, leaving only the unique elements.
-                        Sets are useful for tasks that involve membership tests, removing duplicates from sequences, and
-                        performing mathematical set operations like union, intersection, and difference. Additionally,
-                        since sets only contain unique elements, they are commonly used to find distinct elements in
-                        data collections.</p>
-                    <hr class="two" />
-                    <h1 class="story">Implementations Of Set</h1>
-                    <div class="container main-body-2">
-                        <pre class="left-2">
-              <code id="code-block7" class="python">
-                # Creating a set using curly braces
-                my_set = {1, 2, 3, 4, 4, 5}   
-                # Note the duplicate element 4, which will be automatically removed
-                print("Set using curly braces:", my_set)  
-                # Output: Set using curly braces: {1, 2, 3, 4, 5}
-                
-                # Creating a set using the set() function
-                another_set = set([3, 4, 5, 6, 7])
-                print("Set using set() function:", another_set)  
-                # Output: Set using set() function: {3, 4, 5, 6, 7}
-                
-                # Adding elements to the set
-                my_set.add(6)
-                my_set.add(7)
-                print("Set after adding elements:", my_set)  
-                # Output: Set after adding elements: {1, 2, 3, 4, 5, 6, 7}
-                
-                # Removing elements from the set
-                my_set.remove(5)
-                print("Set after removing element 5:", my_set)  
-                # Output: Set after removing element 5: {1, 2, 3, 4, 6, 7}
-                
-                # Checking membership in the set
-                print("Is 3 in the set?", 3 in my_set)  
-                # Output: Is 3 in the set? True
-                print("Is 5 in the set?", 5 in my_set)  
-                # Output: Is 5 in the set? False
-                
-                # Set operations
-                set_a = {1, 2, 3, 4, 5}
-                set_b = {4, 5, 6, 7, 8}
-                
-                # Union of two sets
-                union_set = set_a.union(set_b)
-                print("Union of sets:", union_set)  
-                # Output: Union of sets: {1, 2, 3, 4, 5, 6, 7, 8}
-                
-                # Intersection of two sets
-                intersection_set = set_a.intersection(set_b)
-                print("Intersection of sets:", intersection_set)  
-                # Output: Intersection of sets: {4, 5}
-                
-                # Difference between two sets
-                difference_set = set_a.difference(set_b)
-                print("Difference of sets:", difference_set)  
-                # Output: Difference of sets: {1, 2, 3}
-                
-                # Removing all elements from the set
-                my_set.clear()
-                print("Set after clearing:", my_set)  
-                # Output: Set after clearing: set()
-                
-              </code>
-            </pre>
-
-                        <button class="copy-button right-2" onclick="copyCode7()">Copy Code</button>
-                    </div>
-                    <p class="p" style="color: aqua !important;">In this code, we first create sets using curly braces
-                        and the set() function. We demonstrate adding and removing elements from the set, checking
-                        membership using the in keyword, and performing set operations like union, intersection, and
-                        difference. Sets are versatile data structures, especially useful when you need to handle unique
-                        elements and perform set operations efficiently.
-                    </p>
-                    <center>
-                        <div id="box">
-                            <a style="color: chartreuse;" href="../lesson-03/quiz.html"><span>Take Quiz</span></a>
-                        </div>
-                    </center>
+                </center>
         </div>
     </div>
     <footer class="footer">
